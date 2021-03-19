@@ -1,0 +1,19 @@
+{
+    "name": "migrate-data-dynamodb-streams-lambda",
+    "version": "1.0.0",
+    "author": "Dan Stanhope",
+    "description": "Use DynamoDB to modify pre-existing records so they can be written to the event stream and consumed by Lambda",
+    "keywords": [
+      "dynamodb",
+      "node.js",
+      "aws"
+    ],
+    "engines": {
+      "node": ">=10.0"
+    },
+    "dependencies": {
+      "aws-sdk": "^2.6.3",
+      "commander": ">=2.2.0"
+    }
+  }
+  
